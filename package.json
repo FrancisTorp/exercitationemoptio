@@ -1,0 +1,54 @@
+{
+  "name": "exercitationemoptio",
+  "version": "1.0.0",
+  "description": "Download website to a local directory (including all css, images, js, etc.)",
+  "readmeFilename": "README.md",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrancisTorp/exercitationemoptio.git"
+  },
+  "keywords": [
+    "veritatis",
+    "itaque",
+    "download",
+    "web",
+    "url",
+    "exercitationem",
+    "culpa",
+    "deleniti",
+    "optio",
+    "image",
+    "js"
+  ],
+  "author": "JaylenOberbrunner",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.0.1",
+    "cheerio": "0.22.0",
+    "css-url-parser": "^1.0.0",
+    "debug": "^3.0.0",
+    "fs-extra": "^4.0.0",
+    "he": "^1.1.0",
+    "lodash": "^4.11.1",
+    "normalize-url": "^1.5.3",
+    "p-queue": "^1.1.0",
+    "request": "^2.81.0",
+    "srcset": "^1.0.0"
+  },
+  "devDependencies": {
+    "codeclimate-test-reporter": "^0.4.0",
+    "coveralls": "^2.11.8",
+    "eslint": "^4.1.0",
+    "istanbul": "^0.4.0",
+    "mocha": "^3.0.2",
+    "nock": "^9.0.2",
+    "proxyquire": "^1.7.3",
+    "should": "^11.1.0",
+    "sinon": "^3.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
